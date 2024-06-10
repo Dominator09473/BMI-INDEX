@@ -55,8 +55,15 @@
             } else if (bmi >= 30) {
                 measure = "Vaše BMI je " + bmi + ", což znamená, že jste obézní";
             }
-  
-  <script>
+
+              if (weight == 0) {
+                document.getElementById("results").innerHTML = error;
+            } else if (height == 0) {
+                document.getElementById("results").innerHTML = error;
+            } else {
+                document.getElementById("results").innerHTML = measure;
+            }
+        }
 
   </script>
 
