@@ -17,8 +17,20 @@
     <div class="container">
         <div class="panel">
             <h2 class="text-center">Spočítejte si BMI index</h2>
-=======
 
+<form>
+                <div id="weightInput">
+                    <p>Zadejte svou váhu (kg)</p>
+                    <input id="weight" type="number"/>
+                </div>
+                <div id="heightInput">
+                    <p>Zadejte svou výšku (cm)</p>
+                    <input id="height" type="number"/> 
+                </div>
+
+                <button type="button" class="btn" onclick="calculate()">Vypočítat BMI</button>
+          
+            </form>
 
 
   
